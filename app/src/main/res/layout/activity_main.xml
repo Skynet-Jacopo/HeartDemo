@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@color/oxford_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        >
+
+        <cn.usmaker.heartdemo.view.FlipLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            >
+
+            <include layout="@layout/layout_card_front"/>
+
+            <include layout="@layout/layout_card_back"/>
+        </cn.usmaker.heartdemo.view.FlipLayout>
+
+        <cn.usmaker.heartdemo.view.FlipLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            >
+
+            <include layout="@layout/front"/>
+
+            <include layout="@layout/back1"/>
+        </cn.usmaker.heartdemo.view.FlipLayout>
+
+        <cn.usmaker.heartdemo.view.FlipLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            >
+
+            <include layout="@layout/layout_card_front"/>
+
+            <include layout="@layout/back2"/>
+        </cn.usmaker.heartdemo.view.FlipLayout>
+
+        <cn.usmaker.heartdemo.view.FlipLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            >
+
+            <include layout="@layout/front"/>
+
+            <include layout="@layout/back3"/>
+        </cn.usmaker.heartdemo.view.FlipLayout>
+
+        <cn.usmaker.heartdemo.view.FlipLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            >
+
+            <include layout="@layout/layout_card_front"/>
+
+            <include layout="@layout/back4"/>
+        </cn.usmaker.heartdemo.view.FlipLayout>
+
+        <cn.usmaker.heartdemo.view.FlipLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            >
+
+            <include layout="@layout/front"/>
+
+            <include layout="@layout/back5"/>
+        </cn.usmaker.heartdemo.view.FlipLayout>
+
+        <cn.usmaker.heartdemo.view.FlipLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            >
+
+            <include layout="@layout/layout_card_front"/>
+
+            <include layout="@layout/back6"/>
+        </cn.usmaker.heartdemo.view.FlipLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

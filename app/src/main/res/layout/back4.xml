@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/back"
+    style="@style/Side.Back"
+    >
+    <TextView
+        android:textSize="25sp"
+        android:id="@+id/tv_content4"
+        android:gravity="center"
+        android:text="野有蔓草，零露瀼瀼。"
+        style="@style/Card.Title"
+        />
+</LinearLayout>
